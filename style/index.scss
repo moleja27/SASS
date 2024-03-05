@@ -1,4 +1,4 @@
-// Varibles
+// Variables
 @import "color";
 
 // General styles
@@ -348,5 +348,75 @@ nav {
 
 
     }
+
+
+    .main-container{
+        display: flex;
+        justify-content: space-between;
+    
+
+        .main-title {
+            font-size: 16px;
+            font-family: Mulish;
+            width: 635px;
+            height: 400px;
+            background-color: #ffcc00;
+            line-height: 30px;
+            margin-top: 20px;
+            margin-left: 20px;
+            position: relative;
+        
+            h1{
+                color: $primary-color;
+                margin-top: 10px;
+                font-size: 40px;
+                font-family: Mulish;
+                margin-bottom: 30px;
+    
+            }
+        }
+
+        .container{
+            width: 335px;
+            height: 430px;
+            border: 1px solid black;
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 17px;
+            display: flex;
+            justify-content: space-around;
+            line-height: 55px;
+
+              .list-one{
+                margin-top: 70px;
+              }
+
+              .list-two{
+                margin-top: 70px;
+              }
+              
+
+
+
+              ul{
+                list-style-type: none;
+              }
+            
+        }
+    }
+
+    .img{
+        width: 1110px;
+        height: 660px;
+        display: block;
+        margin: 0 auto;
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+
+   
+
+    
+
 
 
