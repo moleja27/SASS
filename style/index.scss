@@ -44,7 +44,8 @@ nav {
             margin: 0 15px;
 
             .nav_item1 {
-                margin-left: auto; 
+                margin-left: 50px;
+
             }
         }
 
@@ -360,18 +361,23 @@ nav {
             font-family: Mulish;
             width: 635px;
             height: 400px;
-            background-color: #ffcc00;
             line-height: 30px;
             margin-top: 20px;
-            margin-left: 20px;
+            margin-left: 49px;
             position: relative;
+
+            .main-section{
+                width: 445px;
+                height: 56px;
+                background: pink;
+            }
         
             h1{
                 color: $primary-color;
                 margin-top: 10px;
                 font-size: 40px;
                 font-family: Mulish;
-                margin-bottom: 30px;
+                margin-bottom: 50px;
     
             }
         }
@@ -379,7 +385,6 @@ nav {
         .container{
             width: 335px;
             height: 430px;
-            border: 1px solid black;
             margin-top: 20px;
             margin-left: 20px;
             margin-right: 17px;
@@ -405,16 +410,82 @@ nav {
         }
     }
 
-    .img{
-        width: 1110px;
-        height: 660px;
-        display: block;
-        margin: 0 auto;
-        margin-left: 50px;
-        margin-top: 50px;
-    }
+.img{
+    width: 1110px;
+    height: 660px;
+    display: block;
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-top: 50px;
+}
 
-   
+.paragraph{
+    width: 1110px;
+    height: 70px;
+    margin-left: 50px;
+    margin-top:  25px;
+
+}
+
+.second-grid-layout{
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    gap: 29px;
+    margin-top:  25px;
+    margin-left: 50px;
+    
+      
+      .caja-1{
+        background-color: pink;
+      }
+
+      .caja-2{
+        background-color: pink;
+      }
+
+      .caja-3{
+        background-color: pink;
+      }
+}
+        
+
+          
+// Conctact Page
+
+   .form{
+        width: 475px;
+        height: 291px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 17px;
+        display: flex;
+        justify-content: space-around;
+        line-height: 55px;
+             
+          .btn{
+            background: #ffcc00;
+            width: 100px;
+            height: 30px; 
+            background: $third-color;
+            color: $secondary-color; 
+            border-radius: solid 10px;  
+          }
+
+
+   }
+
+   .map{
+    width: 1110px;
+    height: 570px;
+    margin-left: 50px;
+    margin-top: -144px;
+   }
+
+
+
 
     
 
