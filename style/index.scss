@@ -70,7 +70,6 @@ nav {
     width: 635px;
     height: 251px;
     color: $primary-color;
-    background-color: #ffcc00;
     line-height: 50px;
     margin-top: 20px;
     margin-left: 40px;
@@ -81,76 +80,97 @@ nav {
     }
 }
 
-// title
+// grid
+                    
+    .section-2 {
+        margin-top: 60px;
+        margin-left: 60px;
+        margin-right: 60px;
+        width: 1110;
+        height: 1960px;
+        display: grid;
+        grid-template-rows: repeat(14, 1fr);
+        grid-template-columns: repeat(3, 350px);
+        gap: 10px;
+    
+     
+            .box-1 {
+                grid-row: span 3;
+                     
+            }
 
- /* ===.section-3 {
-    margin: 0 auto;
-    height: 1500px;
-    display: grid;
-    grid-template-rows: repeat(14, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
- 
-        .section-2__img-box-1 {
-            grid-row: span 3;
-        }
- 
-        .section-2__img-box-2 {
-            grid-row: span 2;
-        }
     
-        .section-2__img-box-3 {
-            grid-row: span 4;
-        }
-    
-        .section-2__img-box-4 {
-            grid-row: span 3;
-        }
-    
-        .section-2__img-box-5 {
-            grid-row: span 3;
-        }
-    
-        .section-2__img-box-6 {
-            grid-row: span 3;
-        }
-    
-        .section-2__img-box-7 {
-            grid-row: span 3;
-        }
-    
-        .section-2__img-box-8 {
-            grid-row: span 4;
-        }
-    
-        .section-2__img-box-9 {
-            grid-row: span 4;
-        }
-    
-        .section-2__img-box-10 {
-            grid-row: span 6;
-        }
-    
-        .section-2__img-box-11 {
-            grid-row: span 4;
-        }
-    
-        .section-2__img-box-12 {
-            grid-row: span 3;
-        }
-    
-    
-    
-        img {
-            object-fit: auto;
-            @include area(100%, 100%);
-        }
-    }=== */
+            .box-2 {
+                grid-row: span 2;
+                
+            }
+        
+            .box-3 {
+                grid-row: span 4;
+               
+            }
+        
+            .box-4 {
+                grid-row: span 3;
+                
+            }
+        
+            .box-5 {
+                grid-row: span 3;
+                
+            }
+        
+            .box-6 {
+                grid-row: span 3;
+                
+            }
+        
+            .box-7 {
+                grid-row: span 3;
+                
+            }
+        
+            .box-8 {
+                grid-row: span 4;
+                
+            }
+        
+            .box-9 {
+                grid-row: span 4;
+                
+            }
+        
+            .box-10 {
+                grid-row: span 6;
+                
+            }
+        
+            .box-11 {
+                grid-row: span 4;
+                
+            }
+        
+            .box-12 {
+                grid-row: span 3;
+            }  
+
+            .box-13 {
+                background: #ffcc00;
+                border: 5px solid black;
+            }  
+
+            .box-14 {
+        
+                background: #ffcc00;
+                border: 5px solid black;
+            }  
+                
+   
+    }
 
     .container-second{
         width: 1110px;
         height: 150px;
-        border: 2px solid #333; /* Grosor y color del borde */
         padding: 20px; /* Espaciado interno para separar el contenido del borde */
         margin: 20px;
         display: flex;
@@ -187,135 +207,110 @@ nav {
         display: grid;
         grid-template-columns: repeat(6, 171px);
         grid-template-rows: repeat(4, 205px);
-        border: 2px solid #333;
         margin-left: 40px;
 
         .caja__box-1 {    
-            border: 1px solid black; 
             text-align: left;
             padding-top: 20px;
         }
 
         .caja__box-2 {     
-            border: 1px solid black; 
             padding: 20px;
             text-align: center;
         }
 
         .caja__box-3 {     
-            border: 1px solid black; 
             padding: 20px;
             text-align: center;
         }
 
         .caja__box-4 {     
-            border: 1px solid black; 
             padding: 20px;
             text-align: left;
-            background-color: pink;
             grid-column: span 2;
         }
 
         .caja__box-5 {     
-            border: 1px solid black; 
             padding: 20px;
             text-align: center;
         }
 
         .caja__box-6 {     
-            border: 1px solid black; 
             padding: 20px;
             text-align: center;
         }
 
         .caja__box-7 {     
-            border: 1px solid black; 
             padding: 20px;
             text-align: center;
         }
 
         .caja__box-8 {     
-            border: 1px solid black; 
             padding: 20px;
             text-align: center;
             
         }
 
         .caja__box-9 {     
-            border: 1px solid black; 
             padding: 20px;
             text-align: left;
-            background-color: pink;
             grid-column: span 2;
         }
 
         .caja__box-10 {     
-            border: 1px solid black; 
             padding: 20px;
             text-align: center;
         }
 
         .caja__box-11 {     
-            border: 1px solid black; 
             text-align: left;
             padding-top: 20px;
         }
 
         .caja__box-12 {     
-            border: 1px solid black; 
             padding: 20px;
             text-align: center;
         }
 
         .caja__box-13 {     
-            border: 1px solid black; 
             padding: 20px;
             text-align: center;
         }
 
         .caja__box-14 {     
-            border: 1px solid black; 
             padding: 20px;
             text-align: left;
-            background-color: pink;
             grid-column: span 2;
         }
 
-        .caja__box-15 {     
-            border: 1px solid black; 
+        .caja__box-15 {    
             padding: 20px;
             text-align: center;
         }
 
         .caja__box-16 {     
-            border: 1px solid black; 
             padding: 20px;
             text-align: center;
         }
 
         .caja__box-17 {     
-            border: 1px solid black; 
             padding: 20px;
             text-align: center;
         }
 
         .caja__box-18 {     
-            border: 1px solid black; 
             padding: 20px;
             text-align: center;
             
         }
 
-        .caja__box-19 {     
-            border: 1px solid black; 
+        .caja__box-19 {    
             padding: 20px;
             text-align: left;
-            background-color: pink;
             grid-column: span 2;
         }
 
         .caja__box-20 {     
-            border: 1px solid black; 
             padding: 20px;
             text-align: center;
         }
@@ -369,7 +364,6 @@ nav {
             .main-section{
                 width: 445px;
                 height: 56px;
-                background: pink;
             }
         
             h1{
